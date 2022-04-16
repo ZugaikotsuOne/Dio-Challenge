@@ -1,0 +1,84 @@
+
+:root {
+  --header-height: 4.5rem;
+
+ --hue: 11;
+
+  --base-color: hsl(var(--hue) 32% 46%);
+  --base-color-second: hsl(var(--hue) 14% 36%);
+  --title-color: hsl(var(--hue) 0% 0%);
+  --text-color:hsl(var(--hue) 3% 13%);
+  --body-color: hsl(var(--hue) 40% 51%);
+  --background-color-var: hsl(var(--hue) 3%, 72%);
+}
+
+body {
+max-width: 900px;
+margin: auto;
+background-color: var(--background-color-var);
+color: var(--text-color);
+font:  400 1rem 'DM Sans', sans-serif;
+-webkit-font-smoothing: antialiased;
+
+}
+
+.indice {
+background-color: var(--body-color);
+padding: 7px;
+margin: auto;
+border-radius: 3px;
+font-size: 11px;
+opacity: 90%;
+text-align: center;
+align-items: center;
+}
+
+
+.oc-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 1px;
+  margin-left: 100%;
+  background-color: var(--base-color);
+  opacity: 90%;
+}
+
+.container {
+display: inline-flex;
+
+}
+
+.name {
+  margin: 1px;
+  padding: 1px;
+  font-size: 25px;
+}
+
+.info {
+  margin: 1px;
+  padding: 1px;
+  font-size: 12px;
+}
+
+.work-title {
+  font-size: 17px;
+  margin: 1px;
+}
+
+.button {
+  color: var(--text-color);
+  background-color: var(--body-color);
+  border-radius: 3px;
+  padding: 7px;
+  opacity: 90%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .3s;
+  margin-left: 50%;
+  font-size: 11px;
+}
+
+.button:hover {
+  background: var(--base-color-second);
+}
