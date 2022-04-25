@@ -1,0 +1,10 @@
+Pratico filter=lfs diff=lfs merge=lfs -text
+Bootstrap/music/Bard filter=lfs diff=lfs merge=lfs -text
+Tavern.mp3 filter=lfs diff=lfs merge=lfs -text
+Victorian.mp3 filter=lfs diff=lfs merge=lfs -text
+Bootstrap/music/Dark filter=lfs diff=lfs merge=lfs -text
+Temples.mp3 filter=lfs diff=lfs merge=lfs -text
+Bootstrap/music/Old filter=lfs diff=lfs merge=lfs -text
+Ruins filter=lfs diff=lfs merge=lfs -text
+and filter=lfs diff=lfs merge=lfs -text
+Ancient filter=lfs diff=lfs merge=lfs -text
