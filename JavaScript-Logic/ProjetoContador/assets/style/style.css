@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+:root{
+    --cinza: #9f9f9f;
+    --cinza-escuro: #535353;
+    --azul-claro: #88b5cf;
+    --azul-claro2: #9fd0ec;
+  }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+
+}
+
+button {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--azul-claro);
+    background-color: var(--cinza-escuro);
+    color: var(--azul-claro);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+button::hover{
+    color: var(--azul-claro2);
+}
+
+#counter{
+    display: flex;
+}
+
+#couterNumber{
+    display: flex;
+    align-items: center;
+    margin:  0 20px;
+    font-size: 16px;
+}

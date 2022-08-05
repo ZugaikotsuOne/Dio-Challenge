@@ -1,0 +1,40 @@
+.container{
+    max-width: 350px;
+    border: solid cornflowerblue;
+    display: flex;
+}
+
+.item{
+    background-color: aquamarine;
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+.center{
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.start{
+align-items: flex-start;
+}
+
+.end{
+    align-items: flex-end;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+.flex{
+    flex: 1;
+}
+
+.column{
+    flex-direction: column;
+}
